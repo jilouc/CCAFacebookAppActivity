@@ -1,0 +1,359 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B7276E41AA23945007CF665 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B7276E31AA23945007CF665 /* main.m */; };
+		5B7276E71AA23945007CF665 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B7276E61AA23945007CF665 /* AppDelegate.m */; };
+		5B7276EA1AA23945007CF665 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B7276E91AA23945007CF665 /* ViewController.m */; };
+		5B7276EF1AA23945007CF665 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B7276EE1AA23945007CF665 /* Images.xcassets */; };
+		5B7276F21AA23945007CF665 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B7276F01AA23945007CF665 /* LaunchScreen.xib */; };
+		5B7277081AA2398A007CF665 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B7277071AA2398A007CF665 /* ViewController.xib */; };
+		5B72770E1AA27A0A007CF665 /* UIActivity+CCAFacebookAppActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B72770D1AA27A0A007CF665 /* UIActivity+CCAFacebookAppActivity.m */; };
+		CD8BB41EFEC6406A53E12D62 /* libPods-CCAFacebookAppActivity.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 84094894FBDDDD6303D230B4 /* libPods-CCAFacebookAppActivity.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0CD20EDAC0C395523EA6D5E1 /* Pods-CCAFacebookAppActivity.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CCAFacebookAppActivity.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CCAFacebookAppActivity/Pods-CCAFacebookAppActivity.debug.xcconfig"; sourceTree = "<group>"; };
+		5B7276DE1AA23945007CF665 /* CCAFacebookAppActivity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CCAFacebookAppActivity.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B7276E21AA23945007CF665 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B7276E31AA23945007CF665 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5B7276E51AA23945007CF665 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5B7276E61AA23945007CF665 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5B7276E81AA23945007CF665 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5B7276E91AA23945007CF665 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5B7276EE1AA23945007CF665 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5B7276F11AA23945007CF665 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		5B7277071AA2398A007CF665 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		5B72770C1AA27A0A007CF665 /* UIActivity+CCAFacebookAppActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIActivity+CCAFacebookAppActivity.h"; sourceTree = SOURCE_ROOT; };
+		5B72770D1AA27A0A007CF665 /* UIActivity+CCAFacebookAppActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIActivity+CCAFacebookAppActivity.m"; sourceTree = SOURCE_ROOT; };
+		672F996A7A7D06F9C9B4CFAC /* Pods-CCAFacebookAppActivity.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CCAFacebookAppActivity.release.xcconfig"; path = "Pods/Target Support Files/Pods-CCAFacebookAppActivity/Pods-CCAFacebookAppActivity.release.xcconfig"; sourceTree = "<group>"; };
+		84094894FBDDDD6303D230B4 /* libPods-CCAFacebookAppActivity.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CCAFacebookAppActivity.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B7276DB1AA23945007CF665 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD8BB41EFEC6406A53E12D62 /* libPods-CCAFacebookAppActivity.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		38F13AF0DD8FB292B912130F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0CD20EDAC0C395523EA6D5E1 /* Pods-CCAFacebookAppActivity.debug.xcconfig */,
+				672F996A7A7D06F9C9B4CFAC /* Pods-CCAFacebookAppActivity.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5B7276D51AA23945007CF665 = {
+			isa = PBXGroup;
+			children = (
+				5B72770C1AA27A0A007CF665 /* UIActivity+CCAFacebookAppActivity.h */,
+				5B72770D1AA27A0A007CF665 /* UIActivity+CCAFacebookAppActivity.m */,
+				5B7276E01AA23945007CF665 /* CCAFacebookAppActivity */,
+				5B7276DF1AA23945007CF665 /* Products */,
+				38F13AF0DD8FB292B912130F /* Pods */,
+				7C5C5E2A9C0A94DB3A3EE50B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5B7276DF1AA23945007CF665 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B7276DE1AA23945007CF665 /* CCAFacebookAppActivity.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B7276E01AA23945007CF665 /* CCAFacebookAppActivity */ = {
+			isa = PBXGroup;
+			children = (
+				5B7276E51AA23945007CF665 /* AppDelegate.h */,
+				5B7276E61AA23945007CF665 /* AppDelegate.m */,
+				5B7276E81AA23945007CF665 /* ViewController.h */,
+				5B7276E91AA23945007CF665 /* ViewController.m */,
+				5B7277071AA2398A007CF665 /* ViewController.xib */,
+				5B7276EE1AA23945007CF665 /* Images.xcassets */,
+				5B7276F01AA23945007CF665 /* LaunchScreen.xib */,
+				5B7276E11AA23945007CF665 /* Supporting Files */,
+			);
+			path = CCAFacebookAppActivity;
+			sourceTree = "<group>";
+		};
+		5B7276E11AA23945007CF665 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5B7276E21AA23945007CF665 /* Info.plist */,
+				5B7276E31AA23945007CF665 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7C5C5E2A9C0A94DB3A3EE50B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84094894FBDDDD6303D230B4 /* libPods-CCAFacebookAppActivity.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5B7276DD1AA23945007CF665 /* CCAFacebookAppActivity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B7277011AA23945007CF665 /* Build configuration list for PBXNativeTarget "CCAFacebookAppActivity" */;
+			buildPhases = (
+				E32E7647FFEE62375B1F0935 /* Check Pods Manifest.lock */,
+				5B7276DA1AA23945007CF665 /* Sources */,
+				5B7276DB1AA23945007CF665 /* Frameworks */,
+				5B7276DC1AA23945007CF665 /* Resources */,
+				F32D598630A9A675275828CD /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CCAFacebookAppActivity;
+			productName = CCAFacebookAppActivity;
+			productReference = 5B7276DE1AA23945007CF665 /* CCAFacebookAppActivity.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5B7276D61AA23945007CF665 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Cocoapps;
+				TargetAttributes = {
+					5B7276DD1AA23945007CF665 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 5B7276D91AA23945007CF665 /* Build configuration list for PBXProject "CCAFacebookAppActivity" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5B7276D51AA23945007CF665;
+			productRefGroup = 5B7276DF1AA23945007CF665 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B7276DD1AA23945007CF665 /* CCAFacebookAppActivity */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B7276DC1AA23945007CF665 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B7276F21AA23945007CF665 /* LaunchScreen.xib in Resources */,
+				5B7277081AA2398A007CF665 /* ViewController.xib in Resources */,
+				5B7276EF1AA23945007CF665 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E32E7647FFEE62375B1F0935 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F32D598630A9A675275828CD /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CCAFacebookAppActivity/Pods-CCAFacebookAppActivity-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B7276DA1AA23945007CF665 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B7276EA1AA23945007CF665 /* ViewController.m in Sources */,
+				5B7276E71AA23945007CF665 /* AppDelegate.m in Sources */,
+				5B7276E41AA23945007CF665 /* main.m in Sources */,
+				5B72770E1AA27A0A007CF665 /* UIActivity+CCAFacebookAppActivity.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5B7276F01AA23945007CF665 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B7276F11AA23945007CF665 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5B7276FF1AA23945007CF665 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5B7277001AA23945007CF665 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5B7277021AA23945007CF665 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CD20EDAC0C395523EA6D5E1 /* Pods-CCAFacebookAppActivity.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CCAFacebookAppActivity/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5B7277031AA23945007CF665 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 672F996A7A7D06F9C9B4CFAC /* Pods-CCAFacebookAppActivity.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CCAFacebookAppActivity/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5B7276D91AA23945007CF665 /* Build configuration list for PBXProject "CCAFacebookAppActivity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B7276FF1AA23945007CF665 /* Debug */,
+				5B7277001AA23945007CF665 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B7277011AA23945007CF665 /* Build configuration list for PBXNativeTarget "CCAFacebookAppActivity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B7277021AA23945007CF665 /* Debug */,
+				5B7277031AA23945007CF665 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5B7276D61AA23945007CF665 /* Project object */;
+}

@@ -1,0 +1,7 @@
+
+target 'CCAFacebookAppActivity' do
+
+pod 'Facebook-iOS-SDK', '3.23.0'
+
+end
+
